@@ -34,13 +34,14 @@ A synthesizer converts an **RTL design** (behavioral representation) into a **ga
 
 ---
 ## 🔹Basic Definition of Setup and Hold Time 
-```bash
+
 ### Setup Time (T_setup):
 Setup time is the minimum time interval before the clock edge during which the data input must remain stable so that a flip-flop can correctly capture it. If the input changes too close to the clock edge, the flip-flop may latch incorrect data.
 
 ### Hold Time (T_hold):
 Hold time is the minimum time interval after the clock edge during which the data input must remain stable to ensure correct capture by the flip-flop. Violating hold time can lead to metastability or incorrect outputs.
-```
+
+---
 
 ## 🔹 Why Different Flavors of Cells?
 1. **Fast cells** are used to increase the circuit speed:
@@ -67,6 +68,7 @@ T_clock ≥ T_CQA + T_comb + T_setup_B
 ```bash 
 T_hold_B < T_CQA + T_comb
 ```
+---
 
 ## 🔹 Observations on Fast vs Slow Cells
 
@@ -80,4 +82,4 @@ T_hold_B < T_CQA + T_comb
 | Transistor Width             | Wide transistors, source more current, faster | Narrow transistors, source less current, slower |
 | Usage Guidance               | Use selectively to meet speed requirements     | Use selectively to avoid hold-time issues  |
 
-
+---
