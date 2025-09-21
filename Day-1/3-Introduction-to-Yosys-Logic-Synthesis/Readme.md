@@ -23,7 +23,7 @@ A synthesizer converts an **RTL design** (behavioral representation) into a **ga
 
 *Screenshot: Yosys setup flowchart*  
 
-![Yosys Setup](./images/yosys_setup.png)
+![Yosys Setup](.Screenshots/yosys_setup.png)
 
 ---
 
