@@ -64,10 +64,13 @@ I learned how to navigate through the code and understand signal connections and
 
 ## 📝 Notes
 
-The general command for to create a executable file of a design using iVerilog is:  
+The general commands to create a executable file of a design and run the simulation using iVerilog and gtkwave are:  
 
 ```bash
 iverilog  < module_name.v > < testbench_name.v >
+./a.out
+gtkwave < testbench_name.vcd > 
+
 ```
 
 
