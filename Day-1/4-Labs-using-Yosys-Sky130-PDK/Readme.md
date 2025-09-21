@@ -63,7 +63,7 @@ abc -liberty < path_to_library_file >
 ```
 - Generates the **gate-level netlist** from the RTL.
 
-**Screenshot:** Terminal showing synthesis and ABC output  
+**Screenshot:** Terminal showing ABC output  
 
 ![ABC Output Screenshot](.Screenshots/abc_output.jpg)
 
@@ -71,14 +71,16 @@ abc -liberty < path_to_library_file >
 
 ## Visualize the synthesized logic
 
+- The command that Produces a graphical representation of the logic.
 ```bash
 show
 ```
-- Produces a graphical representation of the logic.
+
 **Screenshot:** Terminal Output
 
 ![Terminal Output](.Screenshots/show_op.jpg)
 
+--- 
 
 **Screenshot:** Graphical logic representation
 
