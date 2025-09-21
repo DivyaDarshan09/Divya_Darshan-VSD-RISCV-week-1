@@ -27,7 +27,7 @@ read_liberty -lib <path_to_library_file>
 
 **Screenshot:** Terminal showing `read_liberty` command output 
 
-![Read Liberty Screenshot](.Screenshots/read_liberty.png)
+![Read Liberty Screenshot](.Screenshots/read_liberty.jpg)
 
 ---
 
@@ -40,7 +40,7 @@ read_verilog good_mux.v
 
 **Screenshot:** Terminal showing `read_verilog` output  
 
-![Read Verilog Screenshot](.Screenshots/read_verilog.png)
+![Read Verilog Screenshot](.Screenshots/read_verilog.jpg)
 
 ---
 
@@ -51,6 +51,9 @@ synth -top good_mux
 ```
 - Converts the RTL to an intermediate representation.
 
+**Screenshot:** Terminal showing synthesis output 
+![Synthesis Screenshot1](.Screenshots/synth1.jpg)
+![Synthesis Screenshot2](.Screenshots/synth2.jpg)
 ---
 
 ## Perform technology mapping with ABC
@@ -62,7 +65,7 @@ abc -liberty < path_to_library_file >
 
 **Screenshot:** Terminal showing synthesis and ABC output  
 
-![ABC Output Screenshot](.Screenshots/abc_output.png)
+![ABC Output Screenshot](.Screenshots/abc_output.jpg)
 
 ---
 
@@ -71,11 +74,15 @@ abc -liberty < path_to_library_file >
 ```bash
 show
 ```
-**Produces a graphical representation of the logic.**
+- Produces a graphical representation of the logic.
+**Screenshot:** Terminal Output
+
+![Terminal Output](.Screenshots/show_op.jpg)
+
 
 **Screenshot:** Graphical logic representation
 
-![Graphical Representation Screenshot](.Screenshots/gr.png)
+![Graphical Representation Screenshot](.Screenshots/graphical_rep.jpg)
 
 ---
 
@@ -88,6 +95,12 @@ write_verilog -noattr good_mux_netlist.v
 ```
 - The **-noattr** option removes extra attributes for cleaner output.
 - The file name should be meaningful to maintain clarity in the repository.
+
+**Screenshot:** Terminal showing write verilog output
+
+
+![Graphical Representation Screenshot](.Screenshots/write_verilog_op.jpg)
+
 ---
 
 ### Open and Inspect the Netlist
@@ -99,5 +112,5 @@ gvim good_mux_netlist.v
 - Allows checking how the RTL design is translated into gate-level logic.
 
  **Screenshot**: gvim showing gate-level netlist
-![Gate Level netlist](.Screenshots/gln.png)
+![Gate Level netlist](.Screenshots/gln.jpg)
 
