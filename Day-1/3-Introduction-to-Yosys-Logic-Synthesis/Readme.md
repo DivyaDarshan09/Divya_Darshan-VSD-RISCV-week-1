@@ -51,7 +51,7 @@ Hold time is the minimum time interval after the clock edge during which the dat
 
 *Screenshot: Circuit Diagram for analysis*  
 
-![circuit diagram](./images/circuit.png)
+![circuit diagram](.Screenshots/circuit.png)
 
 ### Formula 
 ```bash 
