@@ -24,7 +24,8 @@ During these sessions, I learned:
 
 ## 🔹 Exploration of SKY130RTL repo
 *Screenshot: terminal showing the repo exploration*  
-![Sky130RTL repo](.Screenshots/repo.png)
+
+![Sky130RTL repo](.Screenshots/repo.jpg)
 
 
 
@@ -33,7 +34,9 @@ During these sessions, I learned:
 - Used the testbench: `tb_good_mux.v`  
 - Simulated using the command:  
 ```bash
-iverilog  good_mux_tb good_mux.v tb_good_mux.v
+iverilog  good_mux_tb good_mux.v tb_good_mux.v  ## create executable file (a.out)
+./a.out ## dump the vcd file and create tb_good_mux.vcd
+gtkwave tb_good_mux.vcd ## Used to view the waveform
 ```
 ## 🔹 Viewing Results in GTKwave
 
@@ -42,6 +45,7 @@ I opened the generated VCD file in **GTKwave** to visualize the output.
 I observed how input changes affected the output, verifying that the design worked correctly.  
 
 *Screenshot: GTKwave showing mux simulation output*  
+
 ![GTKwave Mux Output](.Screenshots/gtkwave_mux_output.jpg)
 
 ---
@@ -52,14 +56,15 @@ In the second part of the lab, I analyzed the **module** and **testbench** files
 
 I learned how to navigate through the code and understand signal connections and behavior.  
 
-*Screenshot: gvim showing mux module code and tb*  
+*Screenshot: gvim showing mux module code and tb* 
+
 ![Gvim Mux Code](.Screenshots/gvim_mux_code.jpg)
 
 ---
 
 ## 📝 Notes
 
-The general command for verifying a design using iVerilog is:  
+The general command for to create a executable file of a design using iVerilog is:  
 
 ```bash
 iverilog  < module_name.v > < testbench_name.v >
