@@ -10,30 +10,30 @@ The focus of Day 1 is on **Verilog RTL design, simulation, and synthesis** using
 ```tree
 Day-1/
 ├── 1-Introduction-to-iVerilog/
-│   └── README.md
+│   └── Readme.md
 │
 ├── 2-Labs-using-iVerilog-GTKwave/
-│   └── README.md
+│   └── Readme.md
 │
 ├── 3-Introduction-to-Yosys-Logic-Synthesis/
-│   └── README.md
+│   └── Readme.md
 │
 └── 4-Labs-using-Yosys-Sky130-PDK/
-    └── README.md
+    └── Readme.md
 ```
 
 ## Subdivisions
 
-1. [Introduction to iVerilog](1-Introduction-to-iVerilog/README.md)  
+1. [Introduction to iVerilog](1-Introduction-to-iVerilog/Readme.md)  
    - Covered basics of design and testbench setup.
 
-2. [Labs using iVerilog & GTKwave](2-Labs-using-iVerilog-GTKwave/README.md)  
+2. [Labs using iVerilog & GTKwave](2-Labs-using-iVerilog-GTKwave/Readme.md)  
    - Hands-on with GTKwave, simulating simple designs.
 
-3. [Introduction to Yosys Logic Synthesis](3-Introduction-to-Yosys-Logic-Synthesis/README.md)  
+3. [Introduction to Yosys Logic Synthesis](3-Introduction-to-Yosys-Logic-Synthesis/Readme.md)  
    - Understood basics of synthesis flow.
 
-4. [Labs using Yosys & Sky130 PDK](4-Labs-using-Yosys-Sky130-PDK/README.md)  
+4. [Labs using Yosys & Sky130 PDK](4-Labs-using-Yosys-Sky130-PDK/Readme.md)  
    - Performed labs with Yosys and explored Sky130 PDK.
 
 ---
