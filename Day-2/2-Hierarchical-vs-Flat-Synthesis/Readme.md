@@ -44,6 +44,18 @@ show multiple_modules
 write_verilog -noattr multiple_modules_hier.v
 !gvim multiple_modules_heir.v
 ```
+### Hierarchical Synthesis using (`synth -top multiple_modules`)
+
+**Screenshot:** module level synthesising is shown
+
+![module_level synth1 Screenshot](.Screenshots/s1.jpg)
+
+![module_level synth2 Screenshot](.Screenshots/s2.jpg)
+
+
+---
+
+
 
 **Screenshot:** Graphical representation of multiple_modules
 
@@ -71,9 +83,9 @@ write_verilog -noattr multiple_modules_flat.v
 !gvim multiple_modules_flat.v
 ```
 
-**Screenshot:** Flat Netlist file
+**Screenshot:** comparision of heir vs flat netlist file
 
-![flat_netlist screenshot](.Screenshots/flat_netlist.jpg)
+![flat_hier_netlist screenshot](.Screenshots/flat_hier_netlist.jpg)
 
 ---
 
@@ -84,6 +96,28 @@ write_verilog -noattr multiple_modules_flat.v
 - Useful for global optimization, but harder to read.
 
 ---
+### Why Submodule-level Synthesis is Needed
+
+Submodule-level (or modulable) synthesis is useful when we want to **synthesize only specific modules** instead of the entire design.  
+
+**Key Reasons:**  
+
+1. **Multiple Instances of the Same Module**  
+   - When a design contains **many instances of the same module**, submodule-level synthesis allows **isolating and optimizing** that module independently.  
+
+2. **Divide and Conquer for Large Designs**  
+   - For very large designs, synthesizing the entire design at once can be inefficient.  
+   - Submodule-level synthesis allows a **divide-and-conquer approach**, handling smaller parts individually to **manage complexity and resource usage**.  
+
+**Command Used:**  
+
+```bash
+synth -top < module_name >
+```
+- This command controls which specific module is synthesized.
+- It is particularly helpful in hierarchical designs to focus on a submodule without affecting other parts.
+
+--- 
 
 ## Key Takeaways
 
