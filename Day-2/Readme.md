@@ -1,24 +1,64 @@
-# Day 2 - Timing Libs, Hierarchical vs Flat Synthesis & Efficient Loop Coding Styles  
+# Day 2 - Timing Libs, Hierarchical vs Flat Synthesis & Efficient Loop Coding Styles
+
+This document provides a summary of **Day 2** of **Week 1** in the 20-week RISC-V SoC Development Program.  
+The focus of Day 2 is on **timing libraries, synthesis methodologies, and efficient flop coding styles**.
 
 ---
 
-## What I Did Today  
+## Day 2 Repository Structure
 
-On Day 2, I have covered three key areas:  
+```tree
+Day-2/
+├── 1-Introduction-to-Timing-Libs/
+│   └── Readme.md
+├── 2-Hierarchical-vs-Flat-Synthesis/
+│   └── Readme.md
+└── 3-Various-Flop-Coding-Styles-and-Optimizations/
+    └── Readme.md
+```
+---
 
-1. **Introduction to Timing .libs**  
-   - We examined the standard cell libraries and their importance in chip design.  
+## Subdivisions
 
-2. **Hierarchical vs Flat Synthesis**  
-   - We looked at two different ways to approach synthesis and discussed the trade-offs involved.  
+### 1️⃣ Introduction to Timing .libs
+- Explored standard cell libraries, their **PVT variations**, and **equivalent Verilog models**.
 
-3. **Various Flop Coding Styles and Optimizations**  
-   - We talked about how different coding techniques for flops impact performance and efficiency.  
+### 2️⃣ Hierarchical vs Flat Synthesis
+- Learned different approaches to **synthesis** and their **trade-offs**.
+
+### 3️⃣ Various Flop Coding Styles and Optimizations
+- Understood efficient **coding techniques for flip-flops** and **optimization strategies**.
+
+---
+## 🛠️ Tools Used
+
+| **Tool**                   | **Purpose**                                  |
+|-----------------------------|----------------------------------------------|
+| Sky130 RTL Library          | Standard cell library for synthesis          |
+| Verilog                     | RTL design and modeling                      |
+| Yosys / Open-source Tools   | Logic synthesis and verification             |
 
 ---
 
-## Overall Takeaway  
+## 🎯 Learning Objectives
 
-Today helped us understand how **timing, synthesis style, and coding choices** significantly influence the design process. Each of these topics will be valuable as we progress in the project.  
+By the end of Day 2, I was able to:
+
+- Understand the **structure and importance of timing libraries**.  
+- Explore and analyze **PVT corners** and **equivalent Verilog models** of standard cells.  
+- Compare **hierarchical vs flat synthesis approaches** and their trade-offs.  
+- Learn **efficient flop coding styles** for better performance and area optimization.
+
+---
+
+## ✅ Wrap-Up  
+
+From this exploration, I understood:  
+
+- How **PVT variations** are captured in library file names.  
+- How to view the **equivalent Verilog models** of cells.  
+- That **different cell variants trade off area and performance**.  
+
+This gave me a strong foundation on how timing libraries drive the **behavior, area, and delay characteristics** of standard cells.  
 
 ---
