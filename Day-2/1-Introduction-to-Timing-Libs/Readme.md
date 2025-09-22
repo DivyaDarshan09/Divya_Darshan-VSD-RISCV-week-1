@@ -36,7 +36,7 @@ A chip must still work across all such corners.
 
 ---
 
-### 2️⃣ Exploring Cells in the Library  
+### Exploring Cells in the Library  
 
 The library contains **buckets of cells** like:  
 - AND, OR, NAND, NOR,  

@@ -55,8 +55,6 @@ write_verilog -noattr multiple_modules_hier.v
 
 ---
 
-
-
 **Screenshot:** Graphical representation of multiple_modules
 
 ![mm Screenshot](.Screenshots/mm.jpg)
