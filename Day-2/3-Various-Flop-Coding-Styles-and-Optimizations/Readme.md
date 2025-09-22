@@ -1,4 +1,4 @@
-# Day 2 – Various Flop Coding Styles and Optimizations
+# 3. Various Flop Coding Styles and Optimizations
 
 ---
 

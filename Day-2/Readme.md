@@ -1,4 +1,5 @@
 # Day 2 - Timing Libs, Hierarchical vs Flat Synthesis & Efficient Loop Coding Styles
+---
 
 This document provides a summary of **Day 2** of **Week 1** in the 20-week RISC-V SoC Development Program.  
 The focus of Day 2 is on **timing libraries, synthesis methodologies, and efficient flop coding styles**.
