@@ -20,13 +20,13 @@ Day-2/
 
 ## Subdivisions
 
-###  Introduction to Timing .libs
+### [1️⃣ Introduction to Timing .libs](1-Introduction-to-Timing-Libs/Readme.md)
 - Explored standard cell libraries, their **PVT variations**, and **equivalent Verilog models**.
 
-### Hierarchical vs Flat Synthesis
+### [2️⃣ Hierarchical vs Flat Synthesis](2-Hierarchical-vs-Flat-Synthesis/Readme.md)
 - Learned different approaches to **synthesis** and their **trade-offs**.
 
-### Various Flop Coding Styles and Optimizations
+### [3️⃣ Various Flop Coding Styles and Optimizations](3-Various-Flop-Coding-Styles-and-Optimizations/Readme.md)
 - Understood efficient **coding techniques for flip-flops** and **optimization strategies**.
 
 ---
