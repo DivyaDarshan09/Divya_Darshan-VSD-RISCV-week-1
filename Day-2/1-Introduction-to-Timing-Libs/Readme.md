@@ -4,7 +4,7 @@
 ## What I Explored  
 
 - For this topic, I worked with the **Sky130 RTL library** provided in Kunal Ghosh sir GitHub repo.  
-- I explored the **timing library files**, looked into their contents, and understood how they describe standard cells,leekage power,area etc. 
+- I explored the **timing library files**, looked into their contents, and understood how they describe standard cells,leekage power,area etc.
 
 ---
 
