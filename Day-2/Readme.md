@@ -69,7 +69,3 @@ By the end of Day 2, I was able to:
 This gave me a strong foundation on how timing libraries drive the **behavior, area, and delay characteristics** of standard cells.  
 
 ---
-
-👉 [Read Authorship Declaration](AUTHORS.md)
-
----
