@@ -29,10 +29,10 @@ Day3_Combinational_and_Sequential_Optimization/
 
 Click on each topic to view detailed notes:
 
-1. [Introduction to Optimization](./Intro_to_Optimization/README.md)  
-2. [Combinational Logic Optimization](./Combinational_Logic_Optimization/README.md)  
-3. [Sequential Logic Optimization](./Sequential_Logic_Optimization/README.md)  
-4. [Sequential Optimization for Unused Outputs](./Sequential_Optimization_for_Unused_Outputs/README.md)  
+1. [Introduction to Optimization](./Intro_to_Optimization/Readme.md)  
+2. [Combinational Logic Optimization](./Combinational_Logic_Optimization/Readme.md)  
+3. [Sequential Logic Optimization](./Sequential_Logic_Optimization/Readme.md)  
+4. [Sequential Optimization for Unused Outputs](./Sequential_Optimization_for_Unused_Outputs/Readme.md)  
 
 ---
 
