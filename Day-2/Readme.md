@@ -1,8 +1,8 @@
 # Day 2 - Timing Libs, Hierarchical vs Flat Synthesis & Efficient Loop Coding Styles
 ---
 
-This document provides a summary of **Day 2** of **Week 1** in the 20-week RISC-V SoC Development Program.  
-The focus of Day 2 is on **timing libraries, synthesis methodologies, and efficient flop coding styles**.
+- This document provides a summary of **Day 2** of **Week 1** in the 20-week RISC-V SoC Development Program.  
+- The focus of Day 2 is on **timing libraries, synthesis methodologies, and efficient flop coding styles**.
 
 ---
 
@@ -36,8 +36,8 @@ Day-2/
 | **Tool**                   | **Purpose**                                  |
 |-----------------------------|----------------------------------------------|
 | Sky130 RTL Library          | Standard cell library for synthesis          |
-| Verilog                     | RTL design and modeling                      |
-| Yosys / Open-source Tools   | Logic synthesis and verification             |
+| iVerilog                     | RTL design and modeling                      |
+| Yosys                       | Logic synthesis and verification             |
 
 ---
 
@@ -59,6 +59,8 @@ From this exploration, I understood:
 - How **PVT variations** are captured in library file names.  
 - How to view the **equivalent Verilog models** of cells.  
 - That **different cell variants trade off area and performance**.  
+- difference between the types of the synthesis and their significance.
+- asynchronous **(no dependency on clk)** & **synchronous(depends only on clk)** reset strategies and their clock dependency.
 
 This gave me a strong foundation on how timing libraries drive the **behavior, area, and delay characteristics** of standard cells.  
 
