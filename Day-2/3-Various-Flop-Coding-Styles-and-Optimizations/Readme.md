@@ -38,15 +38,23 @@
 
 **Simulation Screenshot:**  
 
-![Synchronous Reset Simulation](.Screenshots/synchronous_reset_sim.jpg)  
+**Synthesized Netlist file Screenshot:**  
 
-**Verilog Code Screenshot:**  
+![Synthesized async Flip-Flop Netlist](.Screenshots/async_reset_synth.jpg)  
 
-![Reset Strategy Code](.Screenshots/reset_code.jpg)  
+![Synthesized sync Flip-Flop Netlist](.Screenshots/sync_reset_synth.jpg) 
 
-**Synthesized Netlist Screenshot:**  
+![Synthesized async_sync Flip-Flop Netlist](.Screenshots/asyn_sync_reset_synth.jpg) 
 
-![Synthesized Flip-Flop Netlist](.Screenshots/reset_synth.jpg)  
+---
+
+**Graphical Representation of Reset Strategies**
+
+![async Flip-Flop](.Screenshots/async_reset_show.jpg)  
+
+![sync Flip-Flop ](.Screenshots/sync_reset_show.jpg) 
+
+![async_sync Flip-Flop](.Screenshots/asyn_sync_reset_show.jpg) 
 
 ---
 
@@ -67,10 +75,6 @@ I explored **shift-based optimizations** for multiplication to **reduce hardware
 **Key Insight:**  
 - **No hardware multipliers** are required; **wires and concatenation** are sufficient.  
 - This reduces **hardware complexity**, **resource usage**, and is crucial for **efficient RTL design**.  
-
-**Optimization Module Screenshot:**  
-
-![MULT_2 and MULT_9 Output](.Screenshots/mult_optimizations.jpg)  
 
 ---
 
