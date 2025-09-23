@@ -1,4 +1,4 @@
-# 🔹 Introduction to Optimization
+# 1. Introduction to Optimization
 
 This is the first subdivision of **Day 1 - Optimization** in my RISC-V SoC Tapeout journey.  
 Here, I started with the basics of **why optimization is needed** in logic design and what techniques exist for **combinational** and **sequential logic optimization**.
