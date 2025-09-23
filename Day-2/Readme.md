@@ -31,16 +31,6 @@ Day-2/
 - Understood efficient **coding techniques for flip-flops** and **optimization strategies**.
 
 ---
-##  Tools Used
-
-| **Tool**                   | **Purpose**                                  |
-|-----------------------------|----------------------------------------------|
-| Sky130 RTL Library          | Standard cell library for synthesis          |
-| iVerilog                     | RTL design and modeling                      |
-| Yosys                       | Logic synthesis and verification             |
-
----
-
 ## Learning Objectives
 
 By the end of Day 2, I was able to:
@@ -52,17 +42,29 @@ By the end of Day 2, I was able to:
 
 ---
 
+
+##  Tools Used
+
+| **Tool**                   | **Purpose**                                  |
+|-----------------------------|----------------------------------------------|
+| Sky130 RTL Library          | Standard cell library for synthesis          |
+| iVerilog                     | RTL design and modeling                      |
+| Yosys                       | Logic synthesis and verification             |
+
+---
+
+
 ## Wrap-Up  
 
 ### From this exploration, I understood: 
 
-```bash 
 - How **PVT variations** are captured in library file names.  
 - How to view the **equivalent Verilog models** of cells.  
 - That **different cell variants trade off area and performance**.  
 - difference between the types of the synthesis and their significance.
 - asynchronous **(no dependency on clk)** & **synchronous(depends only on clk)** reset strategies and their clock dependency.
-```
+
+---
 
 This gave me a strong foundation on how timing libraries drive the **behavior, area, and delay characteristics** of standard cells.  
 
