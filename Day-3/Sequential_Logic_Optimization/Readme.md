@@ -43,7 +43,7 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
   ![Synthesis Stats](.screenshots/dff_const1_synth.jpg)  
 
-  - Here there is no possiblity of optimizing the design hence 1 DFF is used
+  - Here there is no possiblity of optimizing the design hence 1 DFF is used.
 
   ---
 
