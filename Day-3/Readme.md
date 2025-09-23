@@ -4,6 +4,27 @@ This document outlines my Day 3 experience in the RISC-V SoC Tapeout project. I 
 
 ---
 
+##  Repository Structure
+
+```bash
+Day3_Combinational_and_Sequential_Optimization/
+│── README.md         # Main index for Day 3
+│
+├── Intro_to_Optimization/
+│   └── README.md
+│
+├── Combinational_Logic_Optimization/
+│   └── README.md
+│
+├── Sequential_Logic_Optimization/
+│   └── README.md
+│
+└── Sequential_Optimization_for_Unused_Outputs/
+    └── README.md
+```
+
+---
+
 ## Subdivisions
 
 Click on each topic to view detailed notes:
