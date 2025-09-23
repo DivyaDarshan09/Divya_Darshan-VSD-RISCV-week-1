@@ -35,13 +35,13 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Verilog Module**  
 
-  ![Verilog Screenshot](.screenshots/dff_const1_verilog.jpg)  
+  ![Verilog Screenshot](.Screenshots/dff_const1_verilog.jpg)  
 
 ---
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.screenshots/dff_const1_synth.jpg)  
+  ![Synthesis Stats](.Screenshots/dff_const1_synth.jpg)  
 
   - Here there is no possiblity of optimizing the design hence 1 DFF is used.
 
@@ -49,7 +49,7 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.screenshots/dff_const1_graph.jpg)  
+  ![Graphical Representation](.Screenshots/dff_const1_graph.jpg)  
 
 ---
 
@@ -64,13 +64,13 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Verilog Module**  
 
-  ![Verilog Screenshot](.screenshots/dff_const2_verilog.jpg)  
+  ![Verilog Screenshot](.Screenshots/dff_const2_verilog.jpg)  
 
   ---
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.screenshots/dff_const2_synth.jpg) 
+  ![Synthesis Stats](.Screenshots/dff_const2_synth.jpg) 
 
   - Here the DFF is always logic 1 **independent of input and reset** . Hence DFF is optimized into a logic 1 wire.
 
@@ -78,7 +78,7 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.screenshots/dff_const2_graph.jpg)  
+  ![Graphical Representation](.Screenshots/dff_const2_graph.jpg)  
 
 ---
 
@@ -93,19 +93,19 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Verilog Module**  
 
-  ![Verilog Screenshot](.screenshots/dff_const3_verilog.jpg)  
+  ![Verilog Screenshot](.Screenshots/dff_const3_verilog.jpg)  
 
   ---
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.screenshots/dff_const3_synth.jpg)  
+  ![Synthesis Stats](.Screenshots/dff_const3_synth.jpg)  
 
   ---
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.screenshots/dff_const3_graph.jpg) 
+  ![Graphical Representation](.Screenshots/dff_const3_graph.jpg) 
 
 
 ---
@@ -119,19 +119,19 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Verilog Module**  
 
-  ![Verilog Screenshot](.screenshots/dff_const4_verilog.jpg)  
+  ![Verilog Screenshot](.Screenshots/dff_const4_verilog.jpg)  
 
 ---
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.screenshots/dff_const4_synth.jpg)  
+  ![Synthesis Stats](.Screenshots/dff_const4_synth.jpg)  
 
 ---
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.screenshots/dff_const4_graph.jpg)  
+  ![Graphical Representation](.Screenshots/dff_const4_graph.jpg)  
 
 ---
 
@@ -142,18 +142,18 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Verilog Module**  
 
-  ![Verilog Screenshot](.screenshots/dff_const5_verilog.jpg)  
+  ![Verilog Screenshot](.Screenshots/dff_const5_verilog.jpg)  
 
   ---
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.screenshots/dff_const5_synth.jpg)  
+  ![Synthesis Stats](.Screenshots/dff_const5_synth.jpg)  
 
   ---
 
 - **Screenshot: Graphical Representation**  
-  ![Graphical Representation](.screenshots/dff_const5_graph.jpg)  
+  ![Graphical Representation](.Screenshots/dff_const5_graph.jpg)  
 
 
 ---
