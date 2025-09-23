@@ -4,6 +4,15 @@ This is the first subdivision of **Day 1 - Optimization** in my RISC-V SoC Tapeo
 Here, I started with the basics of **why optimization is needed** in logic design and what techniques exist for **combinational** and **sequential logic optimization**.
 
 ---
+## What I Learned
+
+- Optimization is at the **heart of VLSI design**.  
+- **Combinational optimization** saves gates and transistors, directly improving power and area.  
+- **Constant propagation** and **Boolean algebra** are powerful tools for logic simplification.  
+- **Sequential optimization** introduces new concepts like **retiming** and **cloning**, which are crucial in industry-level chip design.  
+- Most of these optimizations are **automatically handled by synthesis tools**, but understanding them helps in writing better RTL.  
+
+---
 
 ## Logic Design Types
 
@@ -48,7 +57,7 @@ y = (ab + c)'
 - This is a **NOR implementation**.  
 - If **a = 0**, then:  
   \[
-  y = (0 \cdot b + c)' = (c)' = \bar{c}
+  y = ~c
   \]
 
  **CMOS Implementation Insight:**  
@@ -73,10 +82,11 @@ assign y = a ? (b ? c : (c ? a : 0)) : c;
 Through step-by-step simplification, this was reduced to:
 
 \[
-y = a \oplus c
-\]
+y = a ^ c 
+\]  
 
-Instead of a long nested conditional logic, it boils down to a **simple XOR gate** — highly efficient!
+- ^ - xor operator
+- Instead of a long nested conditional logic, it boils down to a **simple XOR gate** — highly efficient!
 
 ---
 
@@ -92,19 +102,7 @@ Though detailed discussion comes later, here’s an overview:
 - **Retiming** – Moving registers across logic gates to balance delay and improve performance.  
 - **Sequential Logic Cloning** – Also called *floorplan-aware synthesis*. It duplicates registers or logic elements to minimize routing congestion and improve timing.
 
----
-
-✅ These techniques ensure that **sequential circuits** are efficient in both **speed and area**.
-
----
-
-## What I Learned
-
-- Optimization is at the **heart of VLSI design**.  
-- **Combinational optimization** saves gates and transistors, directly improving power and area.  
-- **Constant propagation** and **Boolean algebra** are powerful tools for logic simplification.  
-- **Sequential optimization** introduces new concepts like **retiming** and **cloning**, which are crucial in industry-level chip design.  
-- Most of these optimizations are **automatically handled by synthesis tools**, but understanding them helps in writing better RTL.  
+ These techniques ensure that **sequential circuits** are efficient in both **speed and area**.
 
 ---
 
