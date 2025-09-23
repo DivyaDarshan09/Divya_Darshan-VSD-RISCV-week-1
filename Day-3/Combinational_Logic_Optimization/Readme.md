@@ -21,7 +21,7 @@ We also learned about **multiple modules** in `multiple_module_OPT.v` where diff
 
 ## Command for Constant Propagation
 
-Before running synthesis and ABC mapping, we must perform constant propagation with:
+Before running ABC mapping, we must perform constant propagation with:
 
 ```bash
 opt_clean -purge
