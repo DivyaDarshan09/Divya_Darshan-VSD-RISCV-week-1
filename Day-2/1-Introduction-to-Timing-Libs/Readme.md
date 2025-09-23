@@ -46,7 +46,7 @@ I also analyzed the **equivalent Verilog models** of these cells.
 
 ### Command used to analyse verilog model:  
 ```bash
-:sp < relative_path >/behavioral.v
+:sp < relative_path >.behavioral.v
 ```
 
 ## Example – Analyzing an AND Cell  
