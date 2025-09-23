@@ -34,13 +34,13 @@ opt_clean -purge
 
 - **Screenshot: Verilog (OPT-check.v)**  
 
-  ![Verilog Screenshot](.Screenshots/OPT-check_verilog.png) 
+  ![Verilog Screenshot](.Screenshots/OPT-check_verilog.jpg) 
 
 ---
 
 - **Screenshot: Synthesis Log**  
 
-  ![Synthesis Log](.Screenshots/OPT-check_synth.png) 
+  ![Synthesis Log](.Screenshots/OPT-check_synth.jpg) 
 
   - as the verilog code shows its a multiplexer the synthesizer optimized it into an AND gate.
 
@@ -48,7 +48,7 @@ opt_clean -purge
 
 - **Screenshot: Graphical Representation**
 
-  ![Graphical Representation](.Screenshots/OPT-check_graph.png)  
+  ![Graphical Representation](.Screenshots/OPT-check_graph.jpg)  
 
 ---
 
@@ -56,20 +56,20 @@ opt_clean -purge
 
 - **Screenshot: Verilog (OPT-check2.v)**  
 
-  ![Verilog Screenshot](.Screenshots/OPT-check2_verilog.png)  
+  ![Verilog Screenshot](.Screenshots/OPT-check2_verilog.jpg)  
 
 ---
 
 - **Screenshot: Synthesis Log**  
 
-  ![Synthesis Log](.Screenshots/OPT-check2_synth.png) 
+  ![Synthesis Log](.Screenshots/OPT-check2_synth.jpg) 
 
 - Here the design is simplified into an OR gate
 ---
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.Screenshots/OPT-check2_graph.png)  
+  ![Graphical Representation](.Screenshots/OPT-check2_graph.jpg)  
 
 ---
 
@@ -77,13 +77,13 @@ opt_clean -purge
 
 - **Screenshot: Verilog (OPT-check3.v)**  
 
-  ![Verilog Screenshot](.Screenshots/OPT-check3_verilog.png)  
+  ![Verilog Screenshot](.Screenshots/OPT-check3_verilog.jpg)  
 
 ---
 
 - **Screenshot: Synthesis Log**  
 
-  ![Synthesis Log](Sscreenshots/OPT-check3_synth.png)  
+  ![Synthesis Log](Sscreenshots/OPT-check3_synth.jpg)  
 
   - Here the design is simplified into an 3 input AND gate.
 
@@ -91,7 +91,7 @@ opt_clean -purge
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.Screenshots/OPT-check3_graph.png)  
+  ![Graphical Representation](.Screenshots/OPT-check3_graph.jpg)  
 
 ---
 
@@ -105,13 +105,13 @@ opt_clean -purge
 
 - **Screenshot: Verilog (OPT-check4.v)**
 
-  ![Verilog Screenshot](.Screenshots/OPT-check4_verilog.png) 
+  ![Verilog Screenshot](.Screenshots/OPT-check4_verilog.jpg) 
 
 ---
 
 - **Screenshot: Synthesis Log**  
 
-  ![Synthesis Log](.Screenshots/OPT-check4_synth.png)
+  ![Synthesis Log](.Screenshots/OPT-check4_synth.jpg)
 
   - The design is simplified into an XNOR gate.  
 
@@ -119,7 +119,7 @@ opt_clean -purge
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.Screenshots/OPT-check4_graph.png)  
+  ![Graphical Representation](.Screenshots/OPT-check4_graph.jpg)  
 
 ---
 
@@ -131,19 +131,19 @@ opt_clean -purge
 
 - **Screenshot: Verilog (multiple_module_OPT.v)**  
 
-  ![Verilog Screenshot](.Screenshots/multiple_module_verilog.png)  
+  ![Verilog Screenshot](.Screenshots/multiple_module_verilog.jpg)  
 
 ---
 
 - **Screenshot: Synthesis Log**  
 
-  ![Synthesis Log](.Screenshots/multiple_module_synth.png)
+  ![Synthesis Log](.Screenshots/multiple_module_synth.jpg)
 
 ---
 
 - **Screenshot: Graphical Representation**  
 
-  ![Graphical Representation](.Screenshots/multiple_module_graph.png)  
+  ![Graphical Representation](.Screenshots/multiple_module_graph.jpg)  
 
 ---
 
