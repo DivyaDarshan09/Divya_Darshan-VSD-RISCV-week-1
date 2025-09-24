@@ -95,11 +95,15 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
   ![Verilog Screenshot](.Screenshots/dff_const3_verilog.jpg)  
 
+  - The design can't be optimized. Hence the design requires 2 Flip Flops.
   ---
 
 - **Screenshot: Synthesis Statistics**  
 
   ![Synthesis Stats](.Screenshots/dff_const3_synth.jpg)  
+   
+  - Hence the printing statistics proved that the design can't be optimized.
+  - It printed 2 Flip Flops.
 
   ---
 
@@ -119,13 +123,19 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 
 - **Screenshot: Verilog Module**  
 
-  ![Verilog Screenshot](.Screenshots/dff_const4_verilog.jpg)  
+  ![Verilog Screenshot](.Screenshots/dff_const4_verilog.jpg) 
+
+  - In this module, irrespective of the clock and Reset the output `q` and `q1` will stay at logic 1.
+  - Hence we don't need any flip flops to store. Just logic 1 wire is enough.
 
 ---
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.Screenshots/dff_const4_synth.jpg)  
+  ![Synthesis Stats](.Screenshots/dff_const4_synth.jpg) 
+
+  - The synthesis stats proved no hardware (FF) is needed. 
+  - Hence the design was optimized by the synthesizer (Yosys).
 
 ---
 
@@ -138,17 +148,22 @@ I performed **Verilog code analysis**, **synthesis**, and studied the **graphica
 ###  Lab 2 – dff_const5
 
 - Similar analysis and optimization as const4.  
-- Synthesizer removes unnecessary flip-flops and simplifies logic.  
 
 - **Screenshot: Verilog Module**  
 
   ![Verilog Screenshot](.Screenshots/dff_const5_verilog.jpg)  
 
-  ---
+  - From the module, it is clearly seen that the design can't be optimized.
+  - when the reset is applied, both the outputs `q1` and `q` becomes 0. 
+  - If reset is 0 , both the outputs `q1` and `q` becomes 1.
+  - So we need 2 flip flops to store the output.
 
 - **Screenshot: Synthesis Statistics**  
 
-  ![Synthesis Stats](.Screenshots/dff_const5_synth.jpg)  
+  ![Synthesis Stats](.Screenshots/dff_const5_synth.jpg)
+
+  - Yes, our synthesizer also proved that 2 flops is enough for this design.
+  - Hence, no optimizations were made.  
 
   ---
 
