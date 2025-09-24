@@ -20,9 +20,9 @@ Day4/
 
 ##  Subdivisions  
 
-1. [GLS & Synthesis–Simulation Mismatch + Blocking/Non-Blocking Mismatch](./1-GLS-Synthesis-Simulation-Mismatch-Blocking-NonBlocking/README.md)  
-2. [Labs on GLS & Synthesis–Simulation Mismatch](./2-Labs-GLS-Synthesis-Simulation-Mismatch/README.md)  
-3. [Labs on Synthesis–Simulation Mismatch for Blocking Statements](./3-Labs-Blocking-Simulation-Mismatch/README.md)  
+1. [GLS & Synthesis–Simulation Mismatch + Blocking/Non-Blocking Mismatch](./1-GLS-Synthesis-Simulation-Mismatch-Blocking-NonBlocking/Readme.md)  
+2. [Labs on GLS & Synthesis–Simulation Mismatch](./2-Labs-GLS-Synthesis-Simulation-Mismatch/Readme.md)  
+3. [Labs on Synthesis–Simulation Mismatch for Blocking Statements](./3-Labs-Blocking-Simulation-Mismatch/Readme.md)  
 
 ---
 
