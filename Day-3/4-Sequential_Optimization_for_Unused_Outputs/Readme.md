@@ -1,7 +1,7 @@
 # 4. Sequential Optimization for Unused Outputs
 
-In this subdivision, I focused on **unused output optimization** in sequential circuits.  
-I analyzed a **counter module** to observe how synthesis tools optimize unused flip-flop outputs.
+- In this subdivision, I focused on **unused output optimization** in sequential circuits.  
+- I analyzed a **counter module** to observe how synthesis tools optimize unused flip-flop outputs.
 
 ---
 
@@ -39,7 +39,7 @@ I performed **Verilog simulation**, **code analysis**, and **synthesis**, and st
   ![Synthesis Stats](.screenshots/counter_opt_case1_synth.jpg)
 
 - Here the need for 3 flip flops is reduced into 1 flop and an inverter.
-- so the unused outputs is optimized
+- so the unused outputs is optimized.
 
   ---
 
@@ -63,7 +63,7 @@ I performed **Verilog simulation**, **code analysis**, and **synthesis**, and st
 
   ![Verilog Screenshot](.screenshots/counter_opt_case2_verilog.jpg) 
 
-- Here the ouput `q` depends only on all the 3 bits. 
+     - Here the ouput `q` depends only on all the 3 bits. 
   ---
 
 - **Screenshot: Synthesis Statistics**  
