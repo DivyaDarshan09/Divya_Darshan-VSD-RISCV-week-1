@@ -30,11 +30,16 @@ I performed **Verilog simulation**, **code analysis**, and **synthesis**, and st
 
   ![Verilog Screenshot](.screenshots/counter_opt_case1_verilog.jpg)  
 
+  - In this code the output `q` depends only on lsb (count[0]) but not first 2 bits.
+
   ---
 
 - **Screenshot: Synthesis Statistics**  
 
   ![Synthesis Stats](.screenshots/counter_opt_case1_synth.jpg)
+
+- Here the need for 3 flip flops is reduced into 1 flop and an inverter.
+- so the unused outputs is optimized
 
   ---
 
@@ -58,12 +63,16 @@ I performed **Verilog simulation**, **code analysis**, and **synthesis**, and st
 
   ![Verilog Screenshot](.screenshots/counter_opt_case2_verilog.jpg) 
 
+- Here the ouput `q` depends only on all the 3 bits. 
   ---
 
 - **Screenshot: Synthesis Statistics**  
 
   ![Synthesis Stats](.screenshots/counter_opt_case2_synth.jpg)  
 
+- Here 3 flip flops are used and no optimizations can be done.
+- Hence this design can't be optimized by the synthesizer.
+ 
   ---
 
 - **Screenshot: Graphical Representation**  
