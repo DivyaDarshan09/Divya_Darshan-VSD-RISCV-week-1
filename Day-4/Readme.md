@@ -1,4 +1,4 @@
-# 📘 Day 4 – GLS, Blocking vs Non-Blocking & Synthesis-Simulation Mismatch  
+# Day 4 – GLS, Blocking vs Non-Blocking & Synthesis-Simulation Mismatch  
 
 Today’s focus was on **Gate-Level Simulation (GLS)**, **blocking vs non-blocking assignments**, and how these can lead to **synthesis–simulation mismatches**. The session was divided into three main parts, combining both theoretical understanding and practical lab experiments.  
 
