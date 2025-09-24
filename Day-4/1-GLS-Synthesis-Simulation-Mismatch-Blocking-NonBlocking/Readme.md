@@ -21,7 +21,7 @@ GLS often requires **delay annotation**, which adds timing information from the 
 
 **High-Level Block Diagram:**  
 
-![GLS Block Diagram](./.screenshots/gls_block_diagram.png) 
+![GLS Block Diagram](.Screenshots/gls_block_diagram.png) 
 
 *Note:* If gate-level Verilog models are **delay-annotated**, GLS can be used for **timing validation**.
 
@@ -70,14 +70,6 @@ A mismatch occurs when the **RTL simulation** behavior does not match the **post
 - RHS expressions are evaluated **in parallel** and assigned to LHS at the end of the time step.  
 - Matches hardware behavior more accurately.  
 
-**Example 1 – Shift Register (Sequential Logic):**  
-```verilog
-always @(posedge clk) begin
-    q0 = d;
-    q1 = q0;
-end
-
-```
 ---
 
 ### Example – Sequential Logic (Shift Register)
@@ -91,14 +83,14 @@ always @(posedge clk or posedge rst) begin
             q0 = 0;
             q = 0;
         end else begin
-            q0 = d;
-            q = q0; 
+            q = q0;
+            q0 = d; 
         end
     end
 endmodule
 
 ```
-- Here the design needs 2 flops. 
+- Here the design needs 2 flops, exhibits 2-bit shift register logic.
 - Lets see if we changed the order of execution.
 
 ```verilog
