@@ -22,7 +22,7 @@ In this subdivision, we performed **hands-on labs** to understand how GLS helps 
 - To perform GLS, we need to invoke **iVerilog**:
 
 ```bash
-iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v < module_name.v > < testbench_name.v >
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v <module_name.v> <testbench_name.v>
 ```
 
 - Generate the simulation executable:
