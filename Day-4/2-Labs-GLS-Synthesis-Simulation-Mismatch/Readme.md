@@ -1,4 +1,4 @@
-# Subdivision 2: Labs on GLS & Synthesis-Simulation Mismatch
+# 2. Labs on GLS & Synthesis-Simulation Mismatch
 
 In this subdivision, we performed **hands-on labs** to understand how GLS helps detect synthesis-simulation mismatches. We used the following files:
 
