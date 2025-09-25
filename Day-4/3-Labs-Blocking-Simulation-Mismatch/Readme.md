@@ -59,7 +59,7 @@ We used the Verilog module:
 
 **5. GLS Simulation Waveform:**  
 
-![GLS Waveform](.Screenshots/blocking_caveat_gls.jpg)
+![GLS Waveform](.Screenshots/blocking_caveat_gls.png)
 
   - In this waveform, the output `d` follows the combinational logic of the design where as when compared to RTL simulation, the output `d` holds the value of previous x value which acted as a flop.
   - Hence it shows `Synthesis-Simulation Mismatch`. 
