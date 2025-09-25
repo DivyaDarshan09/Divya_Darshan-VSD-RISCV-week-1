@@ -40,14 +40,29 @@ We used the Verilog module:
 
 ## 3. Screenshots
 
-**1. RTL Simulation Waveform:** 
+**1. Verilog Code Screenshot:**  
+
+![Blocking caveat Code](.Screenshots/blocking_caveat_code.jpg)
+
+**2. RTL Simulation Waveform:** 
 
 ![RTL Waveform](.Screenshots/blocking_caveat_rtl.jpg)
 
-**2. GLS Simulation Waveform:**  
+
+**3. Synthesized Printed Statistics:**  
+
+![Synthesized Details](.Screenshots/synth_bc.jpg)
+
+**4. Graphical representation:**  
+
+![Graphical Rep of blocking_caveat_module Details](.Screenshots/show.jpg)
+
+**5. GLS Simulation Waveform:**  
+
 ![GLS Waveform](.Screenshots/blocking_caveat_gls.jpg)
 
-**3. Verilog Code Screenshot:**  
-![Blocking KV8 Code](.Screenshots/blocking_caveat_code.jpg)
+  - In this waveform, the output `d` follows the combinational logic of the design where as when compared to RTL simulation, the output `d` holds the value of previous x value which acted as a flop.
+  - Hence it shows `Synthesis-Simulation Mismatch`. 
 
 ---
+
