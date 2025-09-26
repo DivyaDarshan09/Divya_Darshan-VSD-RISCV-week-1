@@ -30,31 +30,31 @@ Day-5_Optimization_in_Synthesis/
 
 ## Subtopics with Links
 
-###  [If-Case Constructs](./If-Case_Constructs/Readme.md)
+###  [If-Case Constructs](./1.If-Case_Constructs/Readme.md)
 - Covers differences between **if** and **case** statements.  
 - Observes how synthesis optimizes these constructs compared to simulation.
 
 ---
 
-###  [Labs on Incomplete If-Case](./Incomplete_If-Case/Readme.md)
+###  [Labs on Incomplete If-Case](./2.Incomplete_If-Case/Readme.md)
 - Demonstrates issues with **incomplete if statements**.  
 - Explains how synthesis can infer unintended **latches**.
 
 ---
 
-###  [Labs on Incomplete Overlapping Case](./Incomplete_Overlapping_Case/Readme.md)
+###  [Labs on Incomplete Overlapping Case](./3.Incomplete_Overlapping_Case/Readme.md)
 - Shows impact of **overlapping and incomplete cases**.  
 - Highlights mismatches between RTL simulation and synthesized netlist.
 
 ---
 
-###  [For-Loop and For-Generate](./For-Loop_Generate/Readme.md)
+###  [For-Loop and For-Generate](./4.For-Loop_Generate/Readme.md)
 - Introduces **for-loops** in simulation vs synthesis.  
 - Explains how **generate-for** expands into hardware logic.  
 
 ---
 
-### [Labs on For-Loop and For-Generate](./Labs_For-Loop_Generate/Readme.md)
+### [Labs on For-Loop and For-Generate](./5.Labs_For-Loop_Generate/Readme.md)
 - Practical labs on **loop unrolling** and hardware replication.  
 - Compares simulation outputs with synthesized results.  
 
