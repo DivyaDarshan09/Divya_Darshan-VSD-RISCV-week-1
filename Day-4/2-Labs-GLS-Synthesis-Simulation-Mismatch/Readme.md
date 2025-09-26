@@ -22,7 +22,7 @@ In this subdivision, we performed **hands-on labs** to understand how GLS helps 
 - To perform GLS, we need to invoke **iVerilog**:
 
 ```bash
-iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v <module_name.v> <testbench_name.v>
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v <module_name_net.v> <testbench_name.v>
 ```
 
 - Generate the simulation executable:
@@ -38,20 +38,60 @@ gtkwave < testbench_name.vcd >
 
 ---
 
-### Screenshots – Ternary Operator MUX Simulation
+## Analysis of ternary_operator_mux.v
 
-**1. RTL Simulation Waveform:**
+**1. RTL Code Screenshot:**  
 
-![RTL Simulation](.Screenshots/ternary_operator_mux_rtl.png)
-
-**2. GLS Simulation Waveform:**  
-
-![GLS Simulation](.Screenshots/ternary_operator_mux_gls.png)
+![RTL Code](.Screenshots/ternary_operator_mux_code.jpg)
 
 
-**3. RTL Code Screenshot:**  
+**2. RTL Simulation Waveform:**
 
-![RTL Code](.Screenshots/ternary_operator_mux_code.png)
+![RTL Simulation](.Screenshots/ternary_operator_mux_rtl.jpg)
+
+
+**3. RTL Simulation Waveform:**
+
+![Synthesis Screenshot](.Screenshots/synthesis_ss.jpg)
+
+
+**4. Graphical Representation:**
+
+![Show Screenshot](.Screenshots/show.jpg)
+
+
+**5. GLS Simulation Waveform:**  
+
+![GLS Simulation](.Screenshots/ternary_operator_mux_gls.jpg)
+
+---
+
+## Analysis of bad_mux.v
+
+
+**1. RTL Code Screenshot:**  
+
+![RTL Code](.Screenshots/bad_mux_code.jpg)
+
+
+**2. RTL Simulation Waveform:**
+
+![RTL Simulation](.Screenshots/bad_mux_rtl.jpg)
+
+
+**3. RTL Simulation Waveform:**
+
+![Synthesis Screenshot](.Screenshots/synthesis_ss.jpg)
+
+
+**4. Graphical Representation:**
+
+![Show Screenshot](.Screenshots/show.jpg)
+
+
+**5. GLS Simulation Waveform:**  
+
+![GLS Simulation](.Screenshots/ternary_operator_mux_gls.jpg)
 
 
 ---
