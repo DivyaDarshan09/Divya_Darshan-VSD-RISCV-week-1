@@ -53,3 +53,8 @@ Click on each topic to view detailed notes:
 - Eliminating unused outputs prevents waste of silicon area in hardware design.  
 
 ---
+
+✨ That’s all — these are the things we explored on **Day 3**.  
+This file serves as the **main README** for Day 3, while each subdivision has its own detailed README with code, screenshots, and analysis.
+
+---

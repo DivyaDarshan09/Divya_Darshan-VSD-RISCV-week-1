@@ -63,3 +63,7 @@ By the end of Day 1, I was able to:
 - Sky130 PDK setup introduces real-world constraints in synthesis.
 ---
 
+✨ That’s all — these are the things we explored on **Day 1**.  
+This file serves as the **main README** for Day 1, while each subdivision has its own detailed README with code, screenshots, and analysis.
+
+---

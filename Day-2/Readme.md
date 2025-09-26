@@ -69,3 +69,8 @@ By the end of Day 2, I was able to:
 This gave me a strong foundation on how timing libraries drive the **behavior, area, and delay characteristics** of standard cells.  
 
 ---
+
+✨ That’s all — these are the things we explored on **Day 2**.  
+This file serves as the **main README** for Day 2, while each subdivision has its own detailed README with code, screenshots, and analysis.
+
+---

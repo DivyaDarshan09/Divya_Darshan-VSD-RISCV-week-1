@@ -81,6 +81,7 @@ This reinforced why GLS is an **essential verification step** before moving to l
 ---
 
 
-✨ This completes **Day 4** of my learning journey.  
+✨ This completes **Day 4** of my learning journey.    
+This file serves as the **main README** for Day 4, while each subdivision has its own detailed README with code, screenshots, and analysis.
 
 ---
