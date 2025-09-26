@@ -4,12 +4,6 @@ This document explains the second subdivision of **Day 5 - Optimization in Synth
 In this section, we performed hands-on labs to understand how incomplete if statements behave during simulation and synthesis.
 
 ---
-## Observations
-- Incomplete if statements result in **latch inference**.  
-- Simulation may still run correctly, but synthesis introduces additional hardware to hold values.  
-- To avoid this, always write **complete if-else statements**.  
-
----
 
 ## What I Learned
 - Writing incomplete if statements causes the synthesizer to infer latches, which is not good practice.  
