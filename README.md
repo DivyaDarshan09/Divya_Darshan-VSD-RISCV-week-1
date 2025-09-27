@@ -17,7 +17,7 @@ This repository documents the work done in Week 1 of my 20-week RISC-V SoC Tapeo
   - [Day-3](#day-3)
   - [Day-4](#day-4)
   - [Day-5](#day-5)
-- [Week 1 Topics Covered](#week--1-topics-covered)
+- [Week 1 Topics Covered](#week-1-topics-covered)
 - [Tools Used](#tools-used)
 - [What I Learned](#what-i-learned)
 - [Next Steps](#next-steps)
@@ -98,7 +98,7 @@ Day-5/
 ```
 ---
 
-## Week -1 Topics Covered
+## Week 1 Topics Covered
 
 - **Day-1**: Introduction to Verilog RTL Design and Synthesis.  
 - **Day-2**: Timing Libs, Hierarchical vs Flat Synthesis & Efficient Loop Coding Styles.
