@@ -59,6 +59,10 @@ gtkwave < testbench_name.vcd >
 
 ![Show Screenshot](.Screenshots/show.jpg)
 
+
+- In `ternary_operator_mux.v` is the efficient way of coding 2*1 mux.
+- The RTL simulation works well for the `ternary_operator_mux.v`
+
 ---
 
 ## Analysis of bad_mux.v
@@ -84,6 +88,9 @@ gtkwave < testbench_name.vcd >
 ![Show Screenshot](.Screenshots/show2.jpg)
 
 
+- In `bad_mux.v` is the bad way of coding , because it only active to the sensitivity list sel, eventhough the input i0 & i1 varies.
+- so the characteristics of mux is not followed here.
+- so it leads to the synthesis - simulation mismatch.
 
 ---
 
