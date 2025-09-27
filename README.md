@@ -34,7 +34,7 @@ This repository documents the work done in Week 1 of my 20-week RISC-V SoC Tapeo
     - [If-Case_Constructs](Day-5/If-Case_Constructs/Readme.md)
     - [Incomplete_If-Case](Day-5/Incomplete_If-Case/Readme.md)
     - [Incomplete_Overlapping_Case](Day-5/Incomplete_Overlapping_Case/Readme.md)
-    - [For-Loop_Generate](Day-5/For-Loop_Generate/Read.md)
+    - [For-Loop_Generate](Day-5/For-Loop_Generate/Readme.md)
     - [Labs_For-Loop_Generate](Day-5/Labs_For-Loop_Generate/Readme.md)
 - [Week 1 Topics Covered](#Week -1 Topics Covered)
 - [Tools Used](#tools-used)
