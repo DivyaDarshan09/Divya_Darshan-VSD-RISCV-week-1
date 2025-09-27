@@ -118,7 +118,7 @@ Day-5/
 
 | Tool                     | Purpose / Use Case                                      |
 |--------------------------|--------------------------------------------------------|
-| Icarus Verilog (iverilog)| Compiling and simulating Verilog/SystemVerilog code    |
+| Icarus Verilog (iverilog)| Compiling and simulating Verilog code    |
 | GTKWave                  | Viewing and analyzing waveform outputs                |
 | Yosys                    | Synthesizing Verilog designs to gate-level netlists   |
 
