@@ -101,8 +101,15 @@ Day-5/
 
 ---
 
-##  Learning Outcomes
-- 
+##  What I learned
+- Understood the need of simulator and synthesizer.
+- Got hands on with digital designs using the tools.
+- Understood the importance of library files (.lib) and the cells present in it
+- Understood the flow of synthesis and types of synthesis using the synthesizer `yosys`
+- Understood the combinational and sequential design optimization in rtl
+- Understood the concept and need of Gate level Simulation, blocking & non-blocking contructs and synthesis-simulation mismatch.
+- Understood how optimization makes the design simple and reduce the area and power of a chip.
+- Finally realized efficient coding styles for flops, looping constructs, combinational and sequential logic.
 
 ---
 
