@@ -30,6 +30,35 @@
 ```bash
 synth -top <module_name>
 ```
+---
+
+### How to do Hierachical synthesis
+
+```bash
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+- Reads the standard cell library (.lib) for synthesis. Provides timing, area, and power info for each cell.
+
+```bash
+read_verilog <module_name.v>
+```
+- Loads your Verilog RTL code into the tool. Prepares the design for synthesis.
+
+```bash
+synth -top <module_name>
+```
+- Synthesizes the RTL to a gate-level netlist. -top specifies the top-level module.
+
+```bash
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+- Performs technology mapping using ABC. Maps generic gates to standard cells in the .lib file.
+
+```bash
+show 
+```
+- Displays a graphical view of the synthesized netlist. Useful for visual inspection of circuit structure.
+---
 
 ### Example – Hierarchical Synthesis Flow
 
