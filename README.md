@@ -22,21 +22,21 @@ This repository documents the work done in Week 1 of my 20-week RISC-V SoC Tapeo
     - [2-Hierarchical-vs-Flat-Synthesis](Day-2/2-Hierarchical-vs-Flat-Synthesis/Readme.md)
     - [3-Various-Flop-Coding-Styles-and-Optimizations](Day-2/3-Various-Flop-Coding-Styles-and-Optimizations/Readme.md)
   - [Day-3](#day-3)
-    - [Intro_to_Optimization](Day-3/Intro_to_Optimization/README.md)
-    - [Combinational_Logic_Optimization](Day-3/Combinational_Logic_Optimization/README.md)
-    - [Sequential_Logic_Optimization](Day-3/Sequential_Logic_Optimization/README.md)
-    - [Sequential_Optimization_for_Unused_Outputs](Day-3/Sequential_Optimization_for_Unused_Outputs/README.md)
+    - [Intro_to_Optimization](Day-3/Intro_to_Optimization/Readme.md)
+    - [Combinational_Logic_Optimization](Day-3/Combinational_Logic_Optimization/Readme.md)
+    - [Sequential_Logic_Optimization](Day-3/Sequential_Logic_Optimization/Readme.md)
+    - [Sequential_Optimization_for_Unused_Outputs](Day-3/Sequential_Optimization_for_Unused_Outputs/Readme.md)
   - [Day-4](#day-4)
-    - [GLS & Synthesis–Simulation Mismatch + Blocking/Non-Blocking Mismatch](Day-4/GLS%20&%20Synthesis%E2%80%93Simulation%20Mismatch%20+%20Blocking/Non-Blocking%20Mismatch/README.md)
-    - [Labs on GLS & Synthesis–Simulation Mismatch](Day-4/Labs%20on%20GLS%20&%20Synthesis%E2%80%93Simulation%20Mismatch/README.md)
-    - [Labs on Synthesis–Simulation Mismatch for Blocking Statements](Day-4/Labs%20on%20Synthesis%E2%80%93Simulation%20Mismatch%20for%20Blocking%20Statements/README.md)
+    - [GLS & Synthesis–Simulation Mismatch + Blocking/Non-Blocking Mismatch](Day-4/GLS%20&%20Synthesis%E2%80%93Simulation%20Mismatch%20+%20Blocking/Non-Blocking%20Mismatch/Readme.md)
+    - [Labs on GLS & Synthesis–Simulation Mismatch](Day-4/Labs%20on%20GLS%20&%20Synthesis%E2%80%93Simulation%20Mismatch/Readme.md)
+    - [Labs on Synthesis–Simulation Mismatch for Blocking Statements](Day-4/Labs%20on%20Synthesis%E2%80%93Simulation%20Mismatch%20for%20Blocking%20Statements/Readme.md)
   - [Day-5](#day-5)
-    - [If-Case_Constructs](Day-5/If-Case_Constructs/README.md)
+    - [If-Case_Constructs](Day-5/If-Case_Constructs/Readme.md)
     - [Incomplete_If-Case](Day-5/Incomplete_If-Case/README.md)
-    - [Incomplete_Overlapping_Case](Day-5/Incomplete_Overlapping_Case/README.md)
+    - [Incomplete_Overlapping_Case](Day-5/Incomplete_Overlapping_Case/Readme.md)
     - [For-Loop_Generate](Day-5/For-Loop_Generate/README.md)
-    - [Labs_For-Loop_Generate](Day-5/Labs_For-Loop_Generate/README.md)
-- [Week 1 Topics Covered](#week-1-topics-covered)
+    - [Labs_For-Loop_Generate](Day-5/Labs_For-Loop_Generate/Readme.md)
+- [Week 1 Topics Covered](#Week -1 Topics Covered)
 - [Tools Used](#tools-used)
 - [What I Learned](#what-i-learned)
 - [Next Steps](#next-steps)
@@ -117,7 +117,7 @@ Day-5/
 ```
 ---
 
-## Week -1 Topics Covered:
+## Week -1 Topics Covered
 
 - **Day-1**: Introduction to Verilog RTL Design and Synthesis.  
 - **Day-2**: Timing Libs, Hierarchical vs Flat Synthesis & Efficient Loop Coding Styles.
