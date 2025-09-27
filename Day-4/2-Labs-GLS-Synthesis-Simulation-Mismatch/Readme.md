@@ -50,7 +50,7 @@ gtkwave < testbench_name.vcd >
 ![RTL Simulation](.Screenshots/ternary_operator_mux_rtl.jpg)
 
 
-**3. RTL Simulation Waveform:**
+**3. Synthesized printing statitics:**
 
 ![Synthesis Screenshot](.Screenshots/synthesis_ss.jpg)
 
@@ -74,7 +74,7 @@ gtkwave < testbench_name.vcd >
 ![RTL Simulation](.Screenshots/bad_mux_rtl.jpg)
 
 
-**3. RTL Simulation Waveform:**
+**3. Synthesized printing statitics:**
 
 ![Synthesis Screenshot](.Screenshots/synthesis_ss2.jpg)
 
