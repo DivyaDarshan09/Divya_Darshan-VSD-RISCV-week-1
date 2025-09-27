@@ -2,7 +2,7 @@
 ---
 
 [![Repo Size](https://img.shields.io/github/repo-size/DivyaDarshan09/Divya_Darshan-VSD-RISCV-week-1)](https://github.com/DivyaDarshan09/Divya_Darshan-VSD-RISCV-week-1)
-[![Owner](https://img.shields.io/badge/Owner-DivyaDarshan09-blue)](https://github.com/DivyaDarshan09)
+[![Owner](https://img.shields.io/badge/Owner-DivyaDarshan09-green)](https://github.com/DivyaDarshan09)
 
 This repository documents the work done in Week 1 of my 20-week RISC-V SoC Tapeout project powered by VLSI System Design (VSD) and IIT Gandhinagar.
 
