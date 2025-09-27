@@ -14,7 +14,7 @@ In this section, we performed hands-on labs to understand how incomplete if stat
 ---
 ## Files Used
 1. `incomp_if.v`  
-2. `incomp_if_2.v`  
+2. `incomp_if2.v`  
 
 These files contain examples of **incomplete if statements**.
 
@@ -33,21 +33,24 @@ These files contain examples of **incomplete if statements**.
 ### Code Analysis
 The Verilog source code clearly shows missing else conditions.  
 
-[👉 Verilog code (incomp_if.v)](.Screenshots/code_incomp_if.jpg)
+![verilog code (incomp_if.v)](.Screenshots/code_incomp_if.jpg)
 
 ---
 
 ### RTL Simulation
 We first ran an RTL simulation to observe the output behavior of the incomplete if statements.  
 
-[👉 RTL simulation result](.Screenshots/rtl_incomp_if.jpg)
+![ RTL simulation result](.Screenshots/rtl_incomp_if.jpg)
 
 ---
 
-### Synthesis
+### Synthesis printing statistics and Graphical View 
 After synthesis, we observed that the synthesizer inferred latches to hold the output when conditions were not met.  
 
-[👉 Synthesis schematic/graphical view](.Screenshots/synth_incomp_if.jpg)
+![printing_statistics](.Screenshots/ps_incomp_if.jpg)
+
+
+![graphical view](.Screenshots/synth_incomp_if.jpg)
 
 ---
 
@@ -57,22 +60,24 @@ After synthesis, we observed that the synthesizer inferred latches to hold the o
 ### Code Analysis
 The Verilog source code clearly shows missing else conditions.  
 
-[👉 Verilog code (incomp_if_2.v)](.Screenshots/code_incomp_if2.jpg)
+![Verilog code (incomp_if_2.v)](.Screenshots/code_incomp_if2.jpg)
 
 ---
 
 ### RTL Simulation
 We first ran an RTL simulation to observe the output behavior of the incomplete if statements.  
 
-[👉 RTL simulation result 2](.Screenshots/rtl_incomp_if2.jpg)
+![ RTL simulation result 2](.Screenshots/rtl_incomp_if2.jpg)
 
 ---
 
-### Synthesis
+### Synthesis printing statistics and Graphical View 
 After synthesis, we observed that the synthesizer inferred latches to hold the output when conditions were not met.  
 
-[👉 Synthesis schematic/graphical view2](.Screenshots/synth_incomp_if2.jpg)
+![printing_statistics](.Screenshots/ps_incomp_if2.jpg)
 
+
+![graphical view](.Screenshots/synth_incomp_if2.jpg)
 ---
 
 ## Observations
