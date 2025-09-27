@@ -8,6 +8,44 @@ This repository documents the work done in Week 1 of my 20-week RISC-V SoC Tapeo
 
 ---
 
+##  Table of Contents
+
+- [Week 1 - RISC-V SoC Tapeout Journey (Divya Darshan)](#week-1---risc-v-soc-tapeout-journey-divya-darshan)
+- [Repository Structure](#repository-structure)
+  - [Day-1](#day-1)
+    - [1-Introduction-to-iVerilog](Day-1/1-Introduction-to-iVerilog/Readme.md)
+    - [2-Labs-using-iVerilog-GTKwave](Day-1/2-Labs-using-iVerilog-GTKwave/Readme.md)
+    - [3-Introduction-to-Yosys-Logic-Synthesis](Day-1/3-Introduction-to-Yosys-Logic-Synthesis/Readme.md)
+    - [4-Labs-using-Yosys-Sky130-PDK](Day-1/4-Labs-using-Yosys-Sky130-PDK/Readme.md)
+  - [Day-2](#day-2)
+    - [1-Introduction-to-Timing-Libs](Day-2/1-Introduction-to-Timing-Libs/Readme.md)
+    - [2-Hierarchical-vs-Flat-Synthesis](Day-2/2-Hierarchical-vs-Flat-Synthesis/Readme.md)
+    - [3-Various-Flop-Coding-Styles-and-Optimizations](Day-2/3-Various-Flop-Coding-Styles-and-Optimizations/Readme.md)
+  - [Day-3](#day-3)
+    - [Intro_to_Optimization](Day-3/Intro_to_Optimization/README.md)
+    - [Combinational_Logic_Optimization](Day-3/Combinational_Logic_Optimization/README.md)
+    - [Sequential_Logic_Optimization](Day-3/Sequential_Logic_Optimization/README.md)
+    - [Sequential_Optimization_for_Unused_Outputs](Day-3/Sequential_Optimization_for_Unused_Outputs/README.md)
+  - [Day-4](#day-4)
+    - [GLS & Synthesis–Simulation Mismatch + Blocking/Non-Blocking Mismatch](Day-4/GLS%20&%20Synthesis%E2%80%93Simulation%20Mismatch%20+%20Blocking/Non-Blocking%20Mismatch/README.md)
+    - [Labs on GLS & Synthesis–Simulation Mismatch](Day-4/Labs%20on%20GLS%20&%20Synthesis%E2%80%93Simulation%20Mismatch/README.md)
+    - [Labs on Synthesis–Simulation Mismatch for Blocking Statements](Day-4/Labs%20on%20Synthesis%E2%80%93Simulation%20Mismatch%20for%20Blocking%20Statements/README.md)
+  - [Day-5](#day-5)
+    - [If-Case_Constructs](Day-5/If-Case_Constructs/README.md)
+    - [Incomplete_If-Case](Day-5/Incomplete_If-Case/README.md)
+    - [Incomplete_Overlapping_Case](Day-5/Incomplete_Overlapping_Case/README.md)
+    - [For-Loop_Generate](Day-5/For-Loop_Generate/README.md)
+    - [Labs_For-Loop_Generate](Day-5/Labs_For-Loop_Generate/README.md)
+- [Week 1 Topics Covered](#week-1-topics-covered)
+- [Tools Used](#tools-used)
+- [What I Learned](#what-i-learned)
+- [Next Steps](#next-steps)
+- [Author](#author)
+- [Credits & Acknowledgments](#credits--acknowledgments)
+
+
+---
+
 ##  Repository Structure
 
 ```tree 
@@ -23,6 +61,7 @@ Day-1/
 │
 └── 4-Labs-using-Yosys-Sky130-PDK/
     └── Readme.md
+
 Day-2/
 ├── 1-Introduction-to-Timing-Libs/
 │   └── Readme.md
@@ -30,6 +69,7 @@ Day-2/
 │   └── Readme.md
 └── 3-Various-Flop-Coding-Styles-and-Optimizations/
     └── Readme.md
+
 Day-3/
 │── README.md         
 │
@@ -44,6 +84,7 @@ Day-3/
 │
 └── Sequential_Optimization_for_Unused_Outputs/
     └── README.md
+
 Day4/
 │── README.md 
 │
@@ -55,8 +96,9 @@ Day4/
 │
 └── Labs on Synthesis–Simulation Mismatch for Blocking Statements/
   └── README.md 
+
 Day-5/
-│── README.md # Main Day 5 summary
+│── README.md 
 │
 ├── If-Case_Constructs/
 │ └── README.md
@@ -121,16 +163,16 @@ Day-5/
 
 ##  Author
 - **Divya Darshan VR** – [GitHub](https://github.com/DivyaDarshan09)
-👉 [Read Authorship Declaration](AUTHORS.md)
+- 👉 [Read Authorship Declaration](AUTHORS.md)
 
 ---
 
 ## Credits & Acknowledgments
 I would like to express my gratitude to:
 
-**Kunal Ghosh**, Founder of **VLSI System Design (VSD)**, for providing this wonderful opportunity and platform.
-**IIT Gandhinagar** for collaborating and supporting the RISC-V SoC Tapeout program.
-The VSD community, which is actively contributing to building India's semiconductor ecosystem and leading towards self-reliance in chip design and innovation.
-This initiative will truly accelerate India's growth in semiconductors, empower students and professionals, and inspire future VLSI engineers.
+- **Kunal Ghosh**, Founder of **VLSI System Design (VSD)** and his team, for providing this wonderful opportunity and platform.
+- **IIT Gandhinagar** for collaborating and supporting the RISC-V SoC Tapeout program.
+- The VSD community, which is actively contributing to building India's semiconductor ecosystem and leading towards self-reliance in chip design and innovation.
+- This initiative will truly accelerate India's growth in semiconductors, empower students and professionals, and inspire future VLSI engineers.
 
 ---
