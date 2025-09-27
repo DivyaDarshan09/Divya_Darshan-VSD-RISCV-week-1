@@ -76,9 +76,10 @@ After synthesis, we observed that the synthesizer inferred latches to hold the o
 
 ![printing_statistics](.Screenshots/ps_incomp_if2.jpg)
 
-
+                                
 ![graphical view](.Screenshots/synth_incomp_if2.jpg)
 ---
+
 
 ## Observations
 - Incomplete if statements result in **latch inference**.  

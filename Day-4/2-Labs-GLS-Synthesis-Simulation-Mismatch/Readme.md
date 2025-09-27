@@ -59,11 +59,6 @@ gtkwave < testbench_name.vcd >
 
 ![Show Screenshot](.Screenshots/show.jpg)
 
-
-**5. GLS Simulation Waveform:**  
-
-![GLS Simulation](.Screenshots/ternary_operator_mux_gls.jpg)
-
 ---
 
 ## Analysis of bad_mux.v
@@ -81,17 +76,13 @@ gtkwave < testbench_name.vcd >
 
 **3. RTL Simulation Waveform:**
 
-![Synthesis Screenshot](.Screenshots/synthesis_ss.jpg)
+![Synthesis Screenshot](.Screenshots/synthesis_ss2.jpg)
 
 
 **4. Graphical Representation:**
 
-![Show Screenshot](.Screenshots/show.jpg)
+![Show Screenshot](.Screenshots/show2.jpg)
 
-
-**5. GLS Simulation Waveform:**  
-
-![GLS Simulation](.Screenshots/ternary_operator_mux_gls.jpg)
 
 
 ---
